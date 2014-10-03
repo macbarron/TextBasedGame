@@ -42,7 +42,7 @@ public class game {
         System.out.println("1. New Game");
         System.out.println("2. Load Game");
         System.out.println("3. How to Play");
-        System.out.println("4. Quit Game");
+        System.out.println("4. Quit Game\n");
         Scanner key = new Scanner(System.in);
         int option;
         try {
@@ -57,17 +57,17 @@ public class game {
                 System.exit(0);
             } else {
                 System.out.println("\n -- Bitch, just pick one of the options"
-                    + " below. -- ");
+                    + " below. \n");
                 pauseTime(800);
-                System.out.println(" -- Dumbass... -- ");
+                System.out.println(" -- Dumbass... \n");
                 pauseTime(800);
                 mainMenu();  
             }                 
         } catch(InputMismatchException e) {
             System.out.println("\n -- Bitch, just pick one of the options"
-                + " below. -- ");
+                + " below. \n");
             pauseTime(800);
-            System.out.println(" -- Dumbass... -- ");
+            System.out.println(" -- Dumbass... \n");
             pauseTime(800);
             mainMenu();
         }
