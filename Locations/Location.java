@@ -17,17 +17,4 @@ public class Location {
 		idCounter++;
 		world.add(this);
 	}
-
-	/**
-	*Custom equals method, compares Locations using the
-	*id instance variable
-	*/
-	public boolean equals(Object other) {
-		Location a = ((Location)other);
-		if (this.id == a.id) {
-			return true;
-		} else {
-			return false;
-		}
-	}
 }
