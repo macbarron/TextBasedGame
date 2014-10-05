@@ -7,7 +7,6 @@ public class Location {
 	public int id;
 	public String title;
 
-
 	/**
 	*Super Constructor for all Locations
 	*/
@@ -19,8 +18,7 @@ public class Location {
 	}
 
 	/**
-	*Custom equals method, compares Locations using the
-	*id instance variable
+	*Custom equals method, compares Locations using the id instance variable
 	*/
 	public boolean equals(Object other) {
 		Location a = ((Location)other);
@@ -31,7 +29,10 @@ public class Location {
 		}
 	}
 
-	public String RoomInfo() {
+	/**
+	*Gives string to dislay when entering room or looking around
+	*/
+	public String roomInfo() {
 		return "You are in a " + title;
 	}
 }
