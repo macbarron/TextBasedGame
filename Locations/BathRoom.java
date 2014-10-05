@@ -1,6 +1,6 @@
-public class BathRoom extends Location {
+public class Bathroom extends Location {
 
-    public BathRoom() {
+    public Bathroom() {
         super("Bathroom");
     }
 	
