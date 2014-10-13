@@ -74,9 +74,22 @@ public class game {
 	}
 
     public static void game() {
-        //Stuff for new game
+        System.out.println("You wake up in" Player.getCurrentLocation());
+        while (true) {
+             Scanner scanner = new Scanner(System.in);
+            ArrayList<String> list = new ArrayList<String>();
+            System.out.println("What do /b/ ?");
+            String[] input = scanner.nextLine().split("\\s+");        
+            for (String i : input) {
+                list.add(i);               
+            }
+            /*some function call */
+            }
+        }
         System.exit(0);
     }
+
+    public static void
 
     public static void loadGame() {
         //Stuff for load game
