@@ -1,7 +1,10 @@
+import java.util.ArrayList;
+
 public class Player {
 
 	private static int currentLocation;
 	private static int health = 100;
+	private static ArrayList<Item> inventory = new ArrayList<Item>();
 	
 	public static void main(String[] args) {
 		while (true) {
