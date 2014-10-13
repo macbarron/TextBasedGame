@@ -7,6 +7,7 @@ public class Location {
 	public int id;
 	public String title;
 	public String flavor; /* the flavor text/description for a room */
+	public ArrayList<String> validVerbs = new ArrayList<String>();
 
 	/**
 	*Super Constructor for all Locations
