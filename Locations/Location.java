@@ -6,6 +6,7 @@ public class Location {
 	public static int idCounter = 0;
 	public int id;
 	public String title;
+	public String flavor; /* the flavor text/description for a room */
 
 	/**
 	*Super Constructor for all Locations
@@ -33,6 +34,6 @@ public class Location {
 	*Gives string to dislay when entering room or looking around
 	*/
 	public String roomInfo() {
-		return "You are in a " + title;
+		return flavor;
 	}
 }
