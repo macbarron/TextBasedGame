@@ -6,20 +6,15 @@ public class Player {
 	public static void main(String[] args) {
 		while (true) {
 	    try {
-	        Thread.sleep(300 * 1000); // the argument here represents milliseconds, currently configured to 5 minutes
+	        Thread.sleep(300 * 1000); //argument in milliseconds
+	        //currently 300 seconds = 5 minutes
 	    }
 	    catch (InterruptedException ie) {
 	        ie.printStackTrace();
 	    }
-	    changeHealth();
-
+	    changeHealth(-5);
 		}
 	}	
-
-	public static void changeHealth(){
-		health = health - 5;
-		System.out.println(health);
-	}
 
 	public static int getHealth(){
 		return health;

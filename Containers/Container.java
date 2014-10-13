@@ -26,7 +26,7 @@ public class Container {
     }
 
     /**
-    *Gives list of all items conatined in container
+    *Gives list of all items contained in container
     */
     public String getList() {
         public String theList;

@@ -5,7 +5,7 @@ public class Location {
 	public static ArrayList<Location> world = new ArrayList<Location>();
 	public static int idCounter = 0;
 	public int id;
-	public String title;
+	protected String title;
 
 	/**
 	*Super Constructor for all Locations
