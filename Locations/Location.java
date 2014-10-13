@@ -40,4 +40,8 @@ public class Location {
 	public String getTitle() {
 		return this.title;
 	}
+
+	public void exitTo(Location newLocation) {
+		Player.currentLocation = newLocation.id;
+	}
 }
