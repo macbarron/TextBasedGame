@@ -20,6 +20,10 @@ public class Player {
 		return health;
 	}
 
+	public static String getLocation() {
+		return this.currentLocation.getTitle();
+	}
+
 	public static void changeHealth(int change){
 		health += change;
 	}
