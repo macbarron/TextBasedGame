@@ -34,6 +34,10 @@ public class Location {
 	*Gives string to dislay when entering room or looking around
 	*/
 	public String roomInfo() {
-		return flavor;
+		return this.flavor;
+	}
+
+	public String getTitle() {
+		return this.title;
 	}
 }

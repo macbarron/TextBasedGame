@@ -12,7 +12,7 @@ public class Player {
 	    catch (InterruptedException ie) {
 	        ie.printStackTrace();
 	    }
-	    changeHealth(-5);
+	    changeHealth(-5); //Lose 5 health every 5 minutes
 		}
 	}	
 
